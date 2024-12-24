@@ -1,0 +1,37 @@
+/* Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background-color: white;
+  height: auto;
+  
+}
+
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav button {
+  margin: 0 10px;
+  outline: none;
+  border: none;
+  background-color: white;
+}
+
+.nav .active {
+  background-color: #f5ee30;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav .active:hover {
+  background-color: #f9f229;
+  transform: scale(1.05);
+}
