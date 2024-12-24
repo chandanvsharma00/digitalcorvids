@@ -13,6 +13,7 @@ const MainContent = () => {
       <h2>
         INNOVATI<Bulb/>N
       </h2>
+      <div className="moto">
       <span> <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
@@ -35,6 +36,7 @@ const MainContent = () => {
         At Digital Corvids, we specialize in creating impactful digital marketing strategies that
         elevate your brand, engage your audience, and drive measurable results.
       </p>
+      </div>
     </div>
   );
 };
