@@ -13,6 +13,24 @@ const MainContent = () => {
       <h2>
         INNOVATI<Bulb/>N
       </h2>
+      <span> <svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlSpace="preserve"
+    id="Capa_1"
+    width="50"
+    height="50"
+    fill="#ffd700"
+    stroke="#ffd700"
+    strokeWidth="0"
+    version="1.1"
+    viewBox="0 0 14.707 14.707"
+  >
+    <path
+      id="SVGRepo_iconCarrier"
+      fill="#ffd700"
+      d="M6.275 0h2.158v14.707H6.275z"
+    ></path>
+  </svg></span>
       <p className="description">
         At Digital Corvids, we specialize in creating impactful digital marketing strategies that
         elevate your brand, engage your audience, and drive measurable results.

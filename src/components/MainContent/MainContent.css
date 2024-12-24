@@ -46,9 +46,10 @@ body {
 
 .description {
   font-size: 1rem;
-  max-width: 600px;
-  margin: 20px auto 0;
+  max-width: 700px;
+  margin-top: -56px;
+  margin-left: 30px;
   line-height: 1.6;
   color: #555;
+  text-align: left;
 }
-
