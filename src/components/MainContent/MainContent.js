@@ -11,7 +11,7 @@ const MainContent = () => {
         BRAND WITH <span className="highlight">DIGITAL <span className="arrow">➤</span></span>
       </h1>
       <h2>
-        INNOVATI<Bulb/>N
+        INNOVATI<span className="invisible">O</span><span className="BulbN"><Bulb/>N</span>
       </h2>
       <div className="moto">
       <span> <svg
