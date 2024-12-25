@@ -6,10 +6,11 @@ const Bulb = () => {
         <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
-        width="60"
-        height="100"
+        width="90"
+        height="180"
         version="1"
         viewBox="0 0 45 75"
+        style={{ position: "relative", top: "25px" }}
       >
         <defs>
           <filter id="bulb-filter-a" width="100%" height="100%" x="0%" y="0%">
