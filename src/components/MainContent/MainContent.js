@@ -2,6 +2,7 @@
 import React from 'react';
 import './MainContent.css';
 import Bulb from './Bulb';
+import FlippingText from './FlippingText';
 
 const MainContent = () => {
   return (
@@ -10,9 +11,10 @@ const MainContent = () => {
         EMPOWERING <br />
         BRAND WITH <span className="highlight">DIGITAL <span className="arrow">➤</span></span>
       </h1>
-      <h2>
+      {/* <h2>
         INNOVATI<span className="invisible">O</span><span className="BulbN"><Bulb/>N</span>
-      </h2>
+      </h2> */}
+      <FlippingText/>
       <div className="moto">
       <span> <svg
     xmlns="http://www.w3.org/2000/svg"

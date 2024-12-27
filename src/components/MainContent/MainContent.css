@@ -62,3 +62,40 @@ body {
 margin-top: -100px;
 margin-left: -20px;
 }
+
+
+
+/* .invisible {
+  visibility: hidden;
+} */
+
+.BulbN {
+  display: inline-block;
+  position: relative;
+  /* Your existing styles */
+}
+
+.flipping-text {
+  transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+  display: inline-block;
+}
+
+.flip-animation {
+  transform: rotateX(90deg); /* Flip effect */
+  opacity: 0;
+}
+
+@keyframes flipText {
+  0% {
+    transform: rotateX(90deg);
+    opacity: 0;
+  }
+  50% {
+    transform: rotateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateX(-90deg);
+    opacity: 0;
+  }
+}
